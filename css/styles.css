@@ -17,24 +17,25 @@ header .demande .tel{float: right;}
 .global .container .bloc1 a h1:hover {color: #eb4;}
 .global .container .img-sejour {padding:8px 0px;}
 .global .container .img-sejour div {padding:0px;}
-.global .container .img-sejour .prof h1{font-size: 30px;font-family: monospace;position: absolute;bottom: 0px;left: 15px;color: #fff}
-.global .container .img-sejour div a small{font-size: 15px;font-family: -webkit-body;position: absolute;bottom: 2px;left: 15px;color: #fff;}
-.global .container .img-sejour .etudiant a h1{font-size: 30px;font-family: monospace;position: absolute;bottom: 0px;left: 15px;color: #fff;}
-.global .container .img-sejour .etudiant a h1:hover, .global .container .img-sejour .prof h1:hover, .container .img-sejour .etudiant ul li a:hover{color: #eb4}
-
-.container .img-sejour .etudiant ul {
+.global .container .img-sejour .prof h1{font-size: 30px;font-family: monospace;color: #fff;margin: 0;0}
+.global .container .img-sejour .prof .shadow1 {position: absolute;bottom: 0;width: 100%;background: rgba(0, 0, 0, 0.49);padding: 0px 10px;}
+.global .container .img-sejour div a small{font-size: 15px;font-family: -webkit-body;color: #fff;}
+.global .container .img-sejour .etudiant .shadow2 a h1{font-size: 30px;font-family: monospace;color: #fff;margin:0px;}
+.global .container .img-sejour .etudiant .shadow2 a h1:hover, .global .container .img-sejour .prof .shadow1  a h1:hover, .container .img-sejour .etudiant ul li a:hover{color: #eb4}
+.global .container .img-sejour .etudiant .shadow2 {position: absolute;bottom: 0;width: 100%;background: rgba(0, 0, 0, 0.49);padding: 0px 10px;}
+.global .container .img-sejour .etudiant .shadow2 ul {
 	margin: 0;
     float: right;
-    position: absolute;
+   /* position: absolute;
     bottom: 5px;
-    right: 15px;
+    right: 15px;*/
     text-align: right;
 }
-.global .container .img-sejour .etudiant ul li{list-style: none;line-height: 20px;}
+.global .container .img-sejour .etudiant ul li{list-style: none;}
 .global .container .img-sejour .etudiant ul li a {color: #fff;text-decoration: none;}
 .global .container .img-sejour .etudiant ul li a.hvr-radial-out:hover{color: #eb4;}
 .global .container .img-sejour .etudiant ul li a:after{content:'>';padding-left: 2px;font-size: 15px;}
-.global .container .img-sejour img{padding:0 2px;width: 100%;}
+.global .container .img-sejour img{width: 100%;}
 
 
 /* FOOTER */
@@ -58,7 +59,7 @@ header .demande .tel{float: right;}
 @media only screen and (min-width: 1024px) {
     /* desktops */
      
-        .container .img-sejour .etudiant ul {
+    /*    .container .img-sejour .etudiant ul {
     margin: 0;
     float: right;
     position: absolute;
@@ -66,7 +67,7 @@ header .demande .tel{float: right;}
     text-align: right;
     left: 188px;
     padding:0px;
-	}
+	}*/
 		header .demande .choix-demande button {
 	    width: 50%;
 	}
@@ -81,6 +82,7 @@ header .demande .tel{float: right;}
 		padding:0px ;
    	 	margin-left: 20px;
    	 }
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -101,14 +103,16 @@ header .demande .tel{float: right;}
     text-align: center;
 	}
 	.global .container .img-sejour .etudiant a h1 {
-    position: absolute;
+  /*  position: absolute;
     bottom: -10px;
-	}
+	}*/
+    }
 	.global .container .img-sejour .prof h1 {
-    position: absolute;
-    bottom: -5px;
+   /* position: absolute;
+    bottom: -5px;*/
 	}
-	.global .container .img-sejour .etudiant ul li {
+	.global .container .img-sejour .etudiant ul li{
     line-height: 17px;
-
+    }
+   
 }
